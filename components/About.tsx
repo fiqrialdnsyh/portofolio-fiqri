@@ -94,7 +94,7 @@ export default function About() {
               </>
             )}
             
-            <a href="/CV-FIQRI-ALDIANSYAH.pdf" download className="inline-flex items-center gap-3 bg-[#15151e] text-white px-8 py-4 font-bold text-lg neo-border neo-shadow hover:bg-white hover:text-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none">
+            <a href="/CV_FIQRI-ALDIANSYAH.pdf" download className="inline-flex items-center gap-3 bg-[#15151e] text-white px-8 py-4 font-bold text-lg neo-border neo-shadow hover:bg-white hover:text-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
               {lang === 'id' ? 'UNDUH CV' : 'DOWNLOAD CV'}
             </a>
