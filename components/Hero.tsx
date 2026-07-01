@@ -40,7 +40,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative pt-12 pb-32 px-6 min-h-[85vh] flex items-center border-b-2 border-black overflow-hidden">
+    <section id="beranda" className="relative pt-12 pb-32 px-6 min-h-[85vh] flex items-center border-b-2 border-black overflow-hidden">
       <div className="absolute inset-0 bg-grid z-0 opacity-50"></div>
       <div className="max-w-6xl mx-auto w-full flex flex-col-reverse md:flex-row items-center gap-16 relative z-10">
         
@@ -71,9 +71,12 @@ export default function Hero() {
           </p>
           
           <div className="flex gap-4 flex-wrap">
-            <button className="bg-[#FFD700] text-black px-8 py-4 font-bold text-lg neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200">
-              {lang === 'id' ? 'Lihat Proyek' : 'View Projects'}
-            </button>
+            <a 
+              href="#proyek"
+              className="bg-[#FFD700] text-black px-8 py-4 font-bold text-lg neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200 flex items-center justify-center cursor-pointer"
+            >
+                {lang === 'id' ? 'Lihat Proyek' : 'View Projects'}
+            </a>
             <a 
               href="mailto:aldiansyahfiqri1@gmail.com"
               className="bg-white text-black px-8 py-4 font-bold text-lg neo-border neo-shadow hover:bg-[#F4F1E1] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200 flex items-center justify-center"
