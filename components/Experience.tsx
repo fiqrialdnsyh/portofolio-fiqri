@@ -15,8 +15,8 @@ const projects = [
     title: { id: "Simoni (Sistem Monitoring)", en: "Simoni (Monitoring System)" },
     role: { id: "Developer", en: "Developer" },
     desc: { 
-      id: "Sistem pemantauan kinerja pegawai terintegrasi untuk Dinas Pangan Provinsi Lampung berbasis Firebase.", 
-      en: "Integrated employee performance monitoring system for the Lampung Province Food Security Agency (Firebase)." 
+      id: "Sistem pemantauan kinerja pegawai terintegrasi untuk Dinas Pangan Provinsi Lampung Apps Mobile menggunakan framework flutter dan backend berbasis Firebase.", 
+      en: "An integrated employee performance monitoring mobile app for the Lampung Province Food Security Agency, built with the Flutter framework and a Firebase backend." 
     }
   },
   {
