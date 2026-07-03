@@ -40,7 +40,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 flex justify-between items-center py-4 px-8 bg-[#15151e] border-b-2 border-black transition-all shadow-[0_4px_0_#000]">
       <div className="text-xl font-bold tracking-tighter text-[#FFD700] leading-none">
-        PORT<br/>FOLIO.
+        FIQRI.
       </div>
       
       <div className="hidden md:flex items-center space-x-6 font-bold text-xs uppercase tracking-wide">
