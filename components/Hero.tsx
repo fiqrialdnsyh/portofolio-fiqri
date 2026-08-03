@@ -96,7 +96,7 @@ export default function Hero() {
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <img src="/foto-profil.JPG" alt="Foto Profil" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"/>
+              <img src="/foto-profil.png" alt="Foto Profil" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"/>
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60 pointer-events-none z-10 transition-opacity duration-300"></div>
               <div 
                 className="absolute inset-0 pointer-events-none z-20 transition-opacity duration-300"
