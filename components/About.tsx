@@ -82,7 +82,7 @@ export default function About() {
                   Saya adalah seorang lulusan baru (<strong>Fresh Graduate</strong>) Teknik Informatika dari Institut Teknologi Sumatera (ITERA). Memiliki fokus mendalam pada pengembangan arsitektur sistem <strong>Full-Stack</strong> serta pemanfaatan <strong>AI-assisted development workflow</strong> untuk efisiensi koding.
                 </p>
                 <p className="text-black text-xl font-medium leading-relaxed mb-10">
-                  Selain berkutat di dunia teknologi, saya aktif sebagai atlet berskala provinsi dan ofisial federasi olahraga Petanque. Pengalaman ganda ini membekali saya dengan kapasitas kepemimpinan yang tangguh, ketahanan mental kompetitif, serta manajemen proyek yang teruji secara nyata.
+                  Selain berkutat di dunia teknologi, saya aktif sebagai atlet berskala provinsi dan ofisial federasi olahraga Petanque, dengan rekam jejak sebagai Ketua Pelaksana turnamen berskala nasional. Pengalaman ganda ini membekali saya dengan kapasitas kepemimpinan yang tangguh, ketahanan mental kompetitif, serta manajemen proyek yang teruji secara nyata.
                 </p>
               </>
             ) : (
@@ -91,7 +91,7 @@ export default function About() {
                   I am a recent <strong>Fresh Graduate</strong> in Informatics Engineering from the Sumatra Institute of Technology (ITERA). I have a deep focus on developing <strong>Full-Stack</strong> system architectures and utilizing <strong>AI-assisted development workflows</strong> for coding efficiency.
                 </p>
                 <p className="text-black text-xl font-medium leading-relaxed mb-10">
-                  Beyond the tech world, I am active as a provincial-level athlete and official for the Petanque sports federation. This dual experience has equipped me with strong leadership capabilities, competitive mental resilience, and proven project management skills.
+                  Beyond the tech world, I am active as a provincial-level athlete and official for the Petanque sports federation, with a track record as Committee Chair for a national-scale tournament. This dual experience has equipped me with strong leadership capabilities, competitive mental resilience, and proven project management skills.
                 </p>
               </>
             )}

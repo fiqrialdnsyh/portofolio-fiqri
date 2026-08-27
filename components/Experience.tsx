@@ -4,6 +4,26 @@ import { useLanguage } from "../context/LanguageContext";
 
 const projects = [
   {
+    title: { id: "Sistem Timing Real-time Triathlon (IoT)", en: "Real-time Triathlon Timing System (IoT)" },
+    role: { id: "Software Engineer (Web & IoT)", en: "Software Engineer (Web & IoT)" },
+    desc: {
+      id: "Sistem pencatatan waktu lomba triathlon real-time, mengintegrasikan sensor RFID dengan aplikasi web dalam 1 minggu pengembangan. Pipeline data Python/MQTT (multithreading, queueing) untuk memproses puluhan pindaian tag per detik, backend Laravel untuk manajemen data atlet & debouncing sensor, serta papan peringkat live dengan stopwatch presisi di sisi klien (Alpine.js).",
+      en: "Real-time race timing system integrating RFID sensors with a web app, built in 1 week. Python/MQTT data pipeline (multithreading, queueing) processing dozens of tag scans per second, Laravel backend for athlete data & sensor debouncing, and a live leaderboard with client-side precision stopwatch (Alpine.js)."
+    },
+    tech: ["Python", "MQTT", "Laravel", "Alpine.js", "RFID"],
+    url: ""
+  },
+  {
+    title: { id: "Modul Pola Hidup Sehat & Kebugaran Fisik", en: "Healthy Lifestyle & Physical Fitness Module" },
+    role: { id: "Penyusun/Editor Modul Ajar", en: "Module Compiler/Editor" },
+    desc: {
+      id: "Menyusun ulang dan mengembangkan materi ajar dosen Program Studi Rekayasa Keolahragaan ITERA menjadi buku modul akademik terstruktur (12 bab), mencakup kebugaran fisik, BLS, latihan aerobik/HIIT, hingga manajemen kompetisi olahraga.",
+      en: "Restructured and developed a lecturer's teaching material into a structured academic module (12 chapters) for ITERA's Sports Engineering program, covering physical fitness, BLS, aerobic/HIIT training, and sports competition management."
+    },
+    tech: ["Academic Writing", "LaTeX/Docx", "Editorial"],
+    url: ""
+  },
+  {
     title: { id: "Website Triathlon Lampung", en: "Triathlon Lampung Website" },
     role: { id: "Web Developer", en: "Web Developer" },
     desc: {
@@ -17,8 +37,8 @@ const projects = [
     title: { id: "Sistem Penilaian Kinerja Atlet Petanque", en: "Petanque Athlete Performance DSS" },
     role: { id: "Developer (Tugas Akhir)", en: "Developer (Final Thesis)" },
     desc: {
-      id: "Sistem Informasi & Pendukung Keputusan (Metode SAW) dengan kriteria spesifik untuk turnamen multi-event & open.",
-      en: "Information System & Decision Support (SAW Method) with specific criteria for multi-event & open tournaments."
+      id: "Sistem Informasi & Pendukung Keputusan (Metode SAW) dengan 12 kriteria terbobot berdasarkan tingkat kejuaraan dan tipe event, untuk turnamen multi-event & open.",
+      en: "Information System & Decision Support (SAW Method) with 12 weighted criteria based on championship level and event type, for multi-event & open tournaments."
     },
     tech: ["Laravel", "Next.js", "MySQL"],
     url: "https://fopi-lampung.com/"
@@ -159,7 +179,7 @@ export default function Experience() {
                       </div>
 
                       {proj.url && (
-                        <a
+                        
                           href={proj.url}
                           target="_blank"
                           rel="noopener noreferrer"

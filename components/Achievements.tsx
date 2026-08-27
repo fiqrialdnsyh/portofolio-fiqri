@@ -51,6 +51,17 @@ export default function Achievements() {
                     </span>
                   </div>
                 </li>
+                <li className="flex items-start gap-2 last:border-0 last:pb-0 last:mb-0">
+                  <span className="text-black mt-0.5">✦</span>
+                  <div className="flex flex-col gap-1">
+                    <strong className="text-black text-[13px] leading-tight">
+                      {lang === 'id' ? 'Skor TOEFL ITP 540' : 'TOEFL ITP Score 540'}
+                    </strong>
+                    <span className="font-medium leading-snug">
+                      {lang === 'id' ? 'ITERA English Proficiency Test (InciTe), 2026.' : 'ITERA English Proficiency Test (InciTe), 2026.'}
+                    </span>
+                  </div>
+                </li>
               </ul>
             </div>
           </FadeIn>
@@ -89,6 +100,17 @@ export default function Achievements() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2 border-b-2 border-black/10 pb-3 mb-3 last:border-0 last:pb-0 last:mb-0">
+                  <span className="text-black mt-0.5">✦</span>
+                  <div className="flex flex-col gap-1">
+                    <strong className="text-black text-[13px] leading-tight">
+                      {lang === 'id' ? 'Ketua Pelaksana Teknis' : 'Technical Committee Chair'}
+                    </strong>
+                    <span className="font-medium leading-snug">
+                      {lang === 'id' ? 'Itera Olympic Cabor Petanque, antar-fakultas (2024).' : 'Itera Olympic Petanque, inter-faculty (2024).'}
+                    </span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-2 last:border-0 last:pb-0 last:mb-0">
                   <span className="text-black mt-0.5">✦</span>
                   <div className="flex flex-col gap-1">
                     <strong className="text-black text-[13px] leading-tight">
@@ -136,7 +158,7 @@ export default function Achievements() {
                     </span>
                   </div>
                 </li>
-                <li className="flex items-start gap-2 border-b-2 border-black/10 pb-3 mb-3 last:border-0 last:pb-0 last:mb-0">
+                <li className="flex items-start gap-2 last:border-0 last:pb-0 last:mb-0">
                   <span className="text-black mt-0.5">✦</span>
                   <div className="flex flex-col gap-1">
                     <strong className="text-black text-[13px] leading-tight">
@@ -166,6 +188,17 @@ export default function Achievements() {
                   <span className="text-black mt-0.5">✦</span>
                   <div className="flex flex-col gap-1">
                     <strong className="text-black text-[13px] leading-tight">
+                      {lang === 'id' ? 'Ketua Pelaksana' : 'Committee Chair'}
+                    </strong>
+                    <span className="font-medium leading-snug">
+                      {lang === 'id' ? 'Kumabat Cup Petanque Open (Dies Natalis ke-11 ITERA), turnamen berskala nasional 2025.' : 'Kumabat Cup Petanque Open (ITERA 11th Anniversary), national-scale tournament 2025.'}
+                    </span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-2 border-b-2 border-black/10 pb-3 mb-3 last:border-0 last:pb-0 last:mb-0">
+                  <span className="text-black mt-0.5">✦</span>
+                  <div className="flex flex-col gap-1">
+                    <strong className="text-black text-[13px] leading-tight">
                       {lang === 'id' ? 'Finalis BK PON 2023' : 'Finalist BK PON 2023'}
                     </strong>
                     <span className="font-medium leading-snug">
@@ -181,6 +214,17 @@ export default function Achievements() {
                     </strong>
                     <span className="font-medium leading-snug">
                       {lang === 'id' ? 'Exhibition Antar Universitas se-Provinsi Lampung.' : 'Inter-University Exhibition.'}
+                    </span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-2 last:border-0 last:pb-0 last:mb-0">
+                  <span className="text-black mt-0.5">✦</span>
+                  <div className="flex flex-col gap-1">
+                    <strong className="text-black text-[13px] leading-tight">
+                      {lang === 'id' ? 'Panitia Seleksi Atlet' : 'Athlete Selection Committee'}
+                    </strong>
+                    <span className="font-medium leading-snug">
+                      {lang === 'id' ? 'Pra-PON Triathlon 2023, FTI Provinsi Lampung.' : 'Pra-PON Triathlon 2023, FTI Lampung.'}
                     </span>
                   </div>
                 </li>
