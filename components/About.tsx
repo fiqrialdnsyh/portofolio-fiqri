@@ -51,7 +51,7 @@ export default function About() {
                   </div>
                 </div>
 
-                {/* ID stripe — pengganti visualizer audio, lebih nyambung ke tema kartu identitas */}
+                {/* ID stripe */}
                 <div className="mt-4 flex items-center justify-between gap-2 border-t border-black/20 pt-2">
                   <div className="flex gap-[2px] h-5 items-stretch">
                     {[3,1,2,4,1,2,1,3,2,1,4,2,1,3,1,2].map((w, i) => (
@@ -79,25 +79,24 @@ export default function About() {
             {lang === 'id' ? (
               <>
                 <p className="text-black text-xl font-medium leading-relaxed mb-6">
-                  Saya adalah seorang lulusan baru (<strong>Fresh Graduate</strong>) Teknik Informatika dari Institut Teknologi Sumatera (ITERA). Memiliki fokus mendalam pada pengembangan arsitektur sistem <strong>Full-Stack</strong> serta pemanfaatan <strong>AI-assisted development workflow</strong> untuk efisiensi koding.
+                  Lulusan Sarjana Teknik Informatika dengan keahlian pengembangan aplikasi <strong>Full-Stack</strong> dan perancangan sistem pendukung keputusan (SPK). Memiliki rekam jejak dalam memimpin 8+ siklus pengembangan perangkat lunak untuk instansi pemerintah dan entitas bisnis, termasuk merancang algoritma SPK berbasis metode kuantitatif untuk evaluasi kinerja atlet.
                 </p>
                 <p className="text-black text-xl font-medium leading-relaxed mb-10">
-                  Selain berkutat di dunia teknologi, saya aktif sebagai atlet berskala provinsi dan ofisial federasi olahraga Petanque, dengan rekam jejak sebagai Ketua Pelaksana turnamen berskala nasional. Pengalaman ganda ini membekali saya dengan kapasitas kepemimpinan yang tangguh, ketahanan mental kompetitif, serta manajemen proyek yang teruji secara nyata.
+                  Berpengalaman luas dalam manajemen dan penyelenggaraan kompetisi olahraga, mulai dari ketua pelaksana turnamen berskala nasional hingga kepengurusan federasi provinsi, dan didukung pelatihan formal di bidang manajemen kompetisi dan tata kelola organisasi olahraga. Mengombinasikan kemampuan analitis teknis, kapasitas kepemimpinan sebagai Ketua Umum organisasi dan Ketua Pelaksana berbagai event, serta disiplin tinggi sebagai atlet berprestasi tingkat provinsi untuk mendorong efisiensi operasional dan pengambilan keputusan berbasis data.
                 </p>
               </>
             ) : (
               <>
                 <p className="text-black text-xl font-medium leading-relaxed mb-6">
-                  I am a recent <strong>Fresh Graduate</strong> in Informatics Engineering from the Sumatra Institute of Technology (ITERA). I have a deep focus on developing <strong>Full-Stack</strong> system architectures and utilizing <strong>AI-assisted development workflows</strong> for coding efficiency.
+                  A Bachelor of Informatics Engineering graduate with expertise in <strong>Full-Stack</strong> application development and the design of decision support systems (DSS). Has a proven track record of leading 8+ software development cycles for government agencies and business entities, including designing quantitative method-based DSS algorithms for athlete performance evaluation.
                 </p>
                 <p className="text-black text-xl font-medium leading-relaxed mb-10">
-                  Beyond the tech world, I am active as a provincial-level athlete and official for the Petanque sports federation, with a track record as Committee Chair for a national-scale tournament. This dual experience has equipped me with strong leadership capabilities, competitive mental resilience, and proven project management skills.
+                  Extensively experienced in sports competition management and organization, ranging from serving as the organizing committee chair for national-scale tournaments to provincial federation management, supported by formal training in competition management and sports organization governance. Combines technical analytical skills, leadership capacity as Chairman of organizations and Organizing Committee Chair for various events, and high discipline as a provincial-level achieving athlete to drive operational efficiency and data-driven decision making.
                 </p>
               </>
             )}
 
-            
-            <a  href="/CV_FIQRI-ALDIANSYAH.pdf"
+            <a href="/CV_FIQRI-ALDIANSYAH.pdf"
               download
               className="inline-flex items-center gap-3 bg-[#15151e] text-white px-8 py-4 font-bold text-lg neo-border neo-shadow hover:bg-white hover:text-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-4 focus-visible:outline-black"
             >

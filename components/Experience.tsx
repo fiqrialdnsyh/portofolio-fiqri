@@ -92,11 +92,10 @@ export default function Experience() {
     <section id="proyek" className="py-24 bg-[#15151e] bg-grid px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto space-y-32">
 
-         {/* SESI MAGANG */}
         <div>
           <FadeIn>
             <h2 className="text-5xl font-black text-[#FFD700] uppercase tracking-tighter mb-8 border-l-8 border-[#FFD700] pl-6">
-              {lang === 'id' ? 'Pengalaman Magang' : 'Internship Experience'}
+              {lang === "id" ? "Pengalaman Magang" : "Internship Experience"}
             </h2>
           </FadeIn>
 
@@ -105,23 +104,23 @@ export default function Experience() {
               <div className="flex-1">
                 <h3 className="text-3xl font-black text-black uppercase mb-2">PT Krakatau Bandar Samudera</h3>
                 <p className="text-xl font-bold text-gray-700 mb-4 border-b-2 border-black pb-4 inline-block">
-                  {lang === 'id' ? 'IT Intern (Durasi: 2 Bulan)' : 'IT Intern (Duration: 2 Months)'}
+                  {lang === "id" ? "IT Intern (Durasi: 2 Bulan)" : "IT Intern (Duration: 2 Months)"}
                 </p>
                 <ul className="list-disc pl-5 font-bold text-gray-800 space-y-2">
                   <li>
-                    {lang === 'id'
-                      ? 'Membantu pemantauan sistem IT dan operasional harian di lingkungan pelabuhan logistik BUMN.'
-                      : 'Assisted in monitoring IT systems and daily operations within a state-owned logistics port environment.'}
+                    {lang === "id"
+                      ? "Membantu pemantauan sistem IT dan operasional harian di lingkungan pelabuhan logistik BUMN."
+                      : "Assisted in monitoring IT systems and daily operations within a state-owned logistics port environment."}
                   </li>
                   <li>
-                    {lang === 'id'
-                      ? 'Mengelola data proyek, menyusun laporan operasional, dan memastikan kelengkapan dokumentasi.'
-                      : 'Managed project data, compiled operational reports, and ensured documentation completeness.'}
+                    {lang === "id"
+                      ? "Mengelola data proyek, menyusun laporan operasional, dan memastikan kelengkapan dokumentasi."
+                      : "Managed project data, compiled operational reports, and ensured documentation completeness."}
                   </li>
                   <li>
-                    {lang === 'id'
-                      ? 'Memberikan dukungan teknis langsung (IT support) untuk menyelesaikan kendala operasional lapangan.'
-                      : 'Provided direct technical support (IT support) to resolve field operational issues.'}
+                    {lang === "id"
+                      ? "Memberikan dukungan teknis langsung (IT support) untuk menyelesaikan kendala operasional lapangan."
+                      : "Provided direct technical support (IT support) to resolve field operational issues."}
                   </li>
                 </ul>
               </div>
@@ -134,7 +133,6 @@ export default function Experience() {
           </FadeIn>
         </div>
 
-        {/* SESI PROYEK */}
         <div>
           <FadeIn>
             <div className="flex items-center gap-4 mb-10">
@@ -142,7 +140,7 @@ export default function Experience() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               </div>
               <h2 className="text-4xl md:text-5xl font-black text-[#FFD700] uppercase tracking-tighter">
-                {lang === 'id' ? 'Sorotan Proyek' : 'Project Highlights'}
+                {lang === "id" ? "Sorotan Proyek" : "Project Highlights"}
               </h2>
             </div>
           </FadeIn>
@@ -151,22 +149,21 @@ export default function Experience() {
             {projects.map((proj, idx) => (
               <FadeIn key={idx} delay={idx * 100}>
                 <div className="flex flex-col h-full">
-                  {/* Tab folder — nomor berkas, konsisten dengan tema dossier */}
                   <div className="w-28 bg-[#FFD700] border-4 border-b-0 border-black h-7 rounded-t-md px-3 flex items-center -mb-1 relative z-10">
                     <span className="font-mono font-black text-xs text-black">PRJ-0{idx + 1}</span>
                   </div>
 
                   <div className="bg-[#15151e] border-4 border-[#FFD700] p-6 hover:bg-[#FFD700] hover:text-black text-white transition-colors duration-200 flex-1 flex flex-col shadow-[6px_6px_0px_#000000] relative rounded-tl-none rounded-md">
                     <span className="text-[#FFD700] group-hover:text-black font-black text-xs uppercase tracking-widest mb-3 block border-b border-[#FFD700]/30 pb-2">
-                      {lang === 'id' ? proj.role.id : proj.role.en}
+                      {lang === "id" ? proj.role.id : proj.role.en}
                     </span>
 
                     <h3 className="text-2xl font-black uppercase mb-4 leading-tight">
-                      {lang === 'id' ? proj.title.id : proj.title.en}
+                      {lang === "id" ? proj.title.id : proj.title.en}
                     </h3>
 
                     <p className="font-medium text-gray-300 hover:text-gray-800 mb-6 text-sm">
-                      {lang === 'id' ? proj.desc.id : proj.desc.en}
+                      {lang === "id" ? proj.desc.id : proj.desc.en}
                     </p>
 
                     <div className="mt-auto flex flex-col gap-5 pt-4 border-t border-[#FFD700]/30">
@@ -178,17 +175,17 @@ export default function Experience() {
                         ))}
                       </div>
 
-                      {proj.url && (
-                        
+                      {proj.url ? (
+                        <a
                           href={proj.url}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center gap-2 bg-[#FFD700] text-black border-2 border-transparent py-2.5 px-4 font-black text-xs uppercase tracking-widest transition-all shadow-[3px_3px_0_#000000] active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-black"
                         >
-                          {lang === 'id' ? 'Kunjungi Web' : 'Visit Site'}
+                          {lang === "id" ? "Kunjungi Web" : "Visit Site"}
                           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                         </a>
-                      )}
+                      ) : null}
                     </div>
                   </div>
                 </div>
