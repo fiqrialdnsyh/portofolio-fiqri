@@ -188,7 +188,7 @@ export default function Achievements() {
                   <span className="text-black mt-0.5">✦</span>
                   <div className="flex flex-col gap-1">
                     <strong className="text-black text-[13px] leading-tight">
-                      {lang === 'id' ? 'Ketua Pelaksana' : 'Committee Chair'}
+                      {lang === 'id' ? 'Ketua Pelaksana Teknis' : 'Committee Chair'}
                     </strong>
                     <span className="font-medium leading-snug">
                       {lang === 'id' ? 'Kumabat Cup Petanque Open (Dies Natalis ke-11 ITERA), turnamen berskala nasional 2025.' : 'Kumabat Cup Petanque Open (ITERA 11th Anniversary), national-scale tournament 2025.'}
