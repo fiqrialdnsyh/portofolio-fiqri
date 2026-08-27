@@ -30,7 +30,7 @@ const projects = [
       id: "Pengembangan website resmi Triathlon Lampung sebagai pusat informasi kegiatan, registrasi peserta, dan publikasi event olahraga daerah.",
       en: "Development of the official Triathlon Lampung website for activity information, participant registration, and regional sports event publication."
     },
-    tech: ["Next.js", "Tailwind CSS"],
+    tech: ["Next.js", "Tailwind CSS", "Node.js", "MySQL", "Laravel", "SQLite"],
     url: "https://triathlon-lampung.id/"
   },
   {
