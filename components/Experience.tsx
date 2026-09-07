@@ -11,7 +11,7 @@ const projects = [
       en: "Real-time race timing system integrating RFID sensors with a web app, built in 1 week. Python/MQTT data pipeline (multithreading, queueing) processing dozens of tag scans per second, Laravel backend for athlete data & sensor debouncing, and a live leaderboard with client-side precision stopwatch (Alpine.js)."
     },
     tech: ["Python", "MQTT", "Laravel", "Alpine.js", "RFID"],
-    url: ""
+    url: "https://github.com/fiqrialdnsyh/triathlon-system"
   },
   {
     title: { id: "Modul Pola Hidup Sehat & Kebugaran Fisik", en: "Healthy Lifestyle & Physical Fitness Module" },
@@ -21,7 +21,7 @@ const projects = [
       en: "Restructured and developed a lecturer's teaching material into a structured academic module (12 chapters) for ITERA's Sports Engineering program, covering physical fitness, BLS, aerobic/HIIT training, and sports competition management."
     },
     tech: ["Academic Writing", "LaTeX/Docx", "Editorial"],
-    url: ""
+    url: "https://www.overleaf.com/read/jhphbkzcwkpt#800b7a"
   },
   {
     title: { id: "Website Triathlon Lampung", en: "Triathlon Lampung Website" },
@@ -61,7 +61,7 @@ const projects = [
       en: "Development of HR recruitment & expenditure modules for PT Mitra Bali Sukses using Odoo."
     },
     tech: ["Odoo", "Python", "PostgreSQL"],
-    url: ""
+    url: "https://drive.google.com/drive/folders/1xc7mTCF9xprq08Vyp8qCMVxAejxSmzON"
   },
   {
     title: { id: "Super Apps IKN Kini", en: "IKN Kini Super Apps" },
@@ -71,7 +71,7 @@ const projects = [
       en: "Figma prototype for IKN public service center (complaints, news, emergencies, area maps)."
     },
     tech: ["Figma", "Wireframing", "Prototyping"],
-    url: ""
+    url: "https://www.figma.com/design/YbfcRVpkYjMondJOG2532g/Projek-IMK-Kelompok-3?node-id=28-632&p=f"
   },
   {
     title: { id: "Chatbot SiPa & SiBaru", en: "SiPa & SiBaru Chatbot" },
@@ -109,20 +109,36 @@ export default function Experience() {
                 <ul className="list-disc pl-5 font-bold text-gray-800 space-y-2">
                   <li>
                     {lang === "id"
-                      ? "Membantu pemantauan sistem IT dan operasional harian di lingkungan pelabuhan logistik BUMN."
-                      : "Assisted in monitoring IT systems and daily operations within a state-owned logistics port environment."}
+                      ? "Mengembangkan aplikasi web \"Bring In Bring Out\" berbasis Laravel dan Tailwind CSS untuk mendigitalisasi system perizinan akses keluar-masuk oprasional di area POSCO, menggantikan pencatatan manual berbasis kertas."
+                      : "Developed the \"Bring In Bring Out\" web application using Laravel and Tailwind CSS to digitize the operational entry and exit authorization system at the POSCO site, replacing manual, paper-based record-keeping."}
                   </li>
                   <li>
                     {lang === "id"
-                      ? "Mengelola data proyek, menyusun laporan operasional, dan memastikan kelengkapan dokumentasi."
-                      : "Managed project data, compiled operational reports, and ensured documentation completeness."}
+                      ? "Merancang prototipe UI/UX aplikasi BAPPER (Berita Acara Serah dan Pengembalian Perangkat IT) menggunakan Figma, serta menyusun Software Requirements Specification (SRS)-nya sebagai dasar pengembangan sistem."
+                      : "Designed UI/UX prototypes for the BAPPER (Incident Report for IT Equipment Handover and Return) application using Figma, and drafted the Software Requirements Specification (SRS) as the foundation for system development."}
                   </li>
                   <li>
                     {lang === "id"
-                      ? "Memberikan dukungan teknis langsung (IT support) untuk menyelesaikan kendala operasional lapangan."
-                      : "Provided direct technical support (IT support) to resolve field operational issues."}
+                      ? "Mempelajari praktik technical writing untuk dokumentasi proyek dan mengikuti pelatihan awareness ISO 27001 terkait keamanan informasi."
+                      : "Studied technical writing practices for project documentation and attended ISO 27001 information security awareness training."}
+                  </li>
+                  <li>
+                    {lang === "id"
+                      ? "Menyusun dokumentasi teknis operasional dan laporan rutin harian jaringan IT logistik BUMN untuk mendukung audit dan evaluasi kepatuhan tata kelola TI."
+                      : "Compiled technical operational documentation and daily network reports for BUMN's logistics IT to support audits and compliance evaluations."}
                   </li>
                 </ul>
+                <div className="mt-8">
+                  <a
+                    href="https://github.com/fiqrialdnsyh/bring-in-bring-out"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 bg-black text-white border-2 border-black py-3 px-6 font-black text-xs uppercase tracking-widest transition-all shadow-[4px_4px_0_#FFD700] hover:translate-x-1 hover:translate-y-1 hover:shadow-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-black"
+                  >
+                    {lang === "id" ? "Lihat Dokumentasi" : "View Documentation"}
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
               </div>
 
               <div className="w-full md:w-1/3 bg-[#FFD700] border-4 border-black p-6 text-center transform rotate-2 shadow-[8px_8px_0px_#000000]">
