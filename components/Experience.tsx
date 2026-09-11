@@ -7,81 +7,121 @@ const projects = [
     title: { id: "Sistem Timing Real-time Triathlon (IoT)", en: "Real-time Triathlon Timing System (IoT)" },
     role: { id: "Software Engineer (Web & IoT)", en: "Software Engineer (Web & IoT)" },
     desc: {
-      id: "Sistem pencatatan waktu lomba triathlon real-time, mengintegrasikan sensor RFID dengan aplikasi web dalam 1 minggu pengembangan. Pipeline data Python/MQTT (multithreading, queueing) untuk memproses puluhan pindaian tag per detik, backend Laravel untuk manajemen data atlet & debouncing sensor, serta papan peringkat live dengan stopwatch presisi di sisi klien (Alpine.js).",
-      en: "Real-time race timing system integrating RFID sensors with a web app, built in 1 week. Python/MQTT data pipeline (multithreading, queueing) processing dozens of tag scans per second, Laravel backend for athlete data & sensor debouncing, and a live leaderboard with client-side precision stopwatch (Alpine.js)."
+      id: "Sistem pencatatan waktu lomba triathlon real-time berbasis integrasi sensor RFID. Melakukan optimasi pipeline data berkecepatan tinggi menggunakan Python dan MQTT, backend Laravel, serta stopwatch presisi di sisi klien dengan Alpine.js.",
+      en: "Real-time triathlon timing system integrating RFID sensors. Optimized high-speed data pipelines using Python and MQTT, Laravel backend, and a client-side precision stopwatch with Alpine.js."
     },
     tech: ["Python", "MQTT", "Laravel", "Alpine.js", "RFID"],
     url: "https://github.com/fiqrialdnsyh/triathlon-system"
   },
   {
-    title: { id: "Modul Pola Hidup Sehat & Kebugaran Fisik", en: "Healthy Lifestyle & Physical Fitness Module" },
-    role: { id: "Penyusun/Editor Modul Ajar", en: "Module Compiler/Editor" },
+    title: { id: "Website Resmi Triathlon Lampung", en: "Official Triathlon Lampung Website" },
+    role: { id: "Full-Stack Developer", en: "Full-Stack Developer" },
     desc: {
-      id: "Menyusun ulang dan mengembangkan materi ajar dosen Program Studi Rekayasa Keolahragaan ITERA menjadi buku modul akademik terstruktur (12 bab), mencakup kebugaran fisik, BLS, latihan aerobik/HIIT, hingga manajemen kompetisi olahraga.",
-      en: "Restructured and developed a lecturer's teaching material into a structured academic module (12 chapters) for ITERA's Sports Engineering program, covering physical fitness, BLS, aerobic/HIIT training, and sports competition management."
+      id: "Platform manajemen atlet, kepengurusan federasi, dan registrasi event triathlon end-to-end. Teruji tangguh dengan UAT 86%, pengujian blackbox, dan performa GTmetrix grade A.",
+      en: "End-to-end triathlon event registration, athlete, and federation management platform. Robustly tested with 86% UAT, blackbox testing, and GTmetrix grade A performance."
     },
-    tech: ["Academic Writing", "LaTeX/Docx", "Editorial"],
-    url: "https://www.overleaf.com/read/jhphbkzcwkpt#800b7a"
-  },
-  {
-    title: { id: "Website Triathlon Lampung", en: "Triathlon Lampung Website" },
-    role: { id: "Web Developer", en: "Web Developer" },
-    desc: {
-      id: "Pengembangan website resmi Triathlon Lampung sebagai pusat informasi kegiatan, registrasi peserta, dan publikasi event olahraga daerah.",
-      en: "Development of the official Triathlon Lampung website for activity information, participant registration, and regional sports event publication."
-    },
-    tech: ["Next.js", "Tailwind CSS", "Node.js", "MySQL", "Laravel", "SQLite"],
+    tech: ["Next.js", "Tailwind CSS", "Node.js", "MySQL", "Laravel"],
     url: "https://triathlon-lampung.id/"
   },
   {
-    title: { id: "Sistem Penilaian Kinerja Atlet Petanque", en: "Petanque Athlete Performance DSS" },
-    role: { id: "Developer (Tugas Akhir)", en: "Developer (Final Thesis)" },
+    title: { id: "Sistem Penilaian Kinerja Atlet Petanque (FOPI)", en: "Petanque Athlete Performance System (FOPI)" },
+    role: { id: "Full-Stack Developer (Tugas Akhir)", en: "Full-Stack Developer (Final Thesis)" },
     desc: {
-      id: "Sistem Informasi & Pendukung Keputusan (Metode SAW) dengan 12 kriteria terbobot berdasarkan tingkat kejuaraan dan tipe event, untuk turnamen multi-event & open.",
-      en: "Information System & Decision Support (SAW Method) with 12 weighted criteria based on championship level and event type, for multi-event & open tournaments."
+      id: "Platform evaluasi kinerja atlet menggunakan metode Simple Additive Weighting dengan 12 kriteria terbobot, terintegrasi manajemen data atlet. Teruji secara komprehensif (WebQual 86.85%, GTmetrix A).",
+      en: "Athlete performance evaluation platform using the Simple Additive Weighting method with 12 weighted criteria, integrated with athlete data management. Comprehensively tested (WebQual 86.85%, GTmetrix A)."
     },
     tech: ["Laravel", "Next.js", "MySQL"],
     url: "https://fopi-lampung.com/"
   },
   {
+    title: { id: "SILABOR ITERA", en: "SILABOR ITERA" },
+    role: { id: "Full-Stack Developer", en: "Full-Stack Developer" },
+    desc: {
+      id: "Sistem informasi peminjaman dan reservasi laboratorium untuk Prodi Rekayasa Keolahragaan ITERA. Mencakup manajemen 3 laboratorium dengan sistem approval dan pengecekan jadwal real-time.",
+      en: "Laboratory loan and reservation information system for ITERA's Sports Engineering Program. Covers 3 laboratories with an approval system and real-time schedule checking."
+    },
+    tech: ["Next.js", "Firebase"],
+    url: ""
+  },
+  {
+    title: { id: "Perbandingan Vision Transformer", en: "Vision Transformer Comparison" },
+    role: { id: "AI/ML Developer", en: "AI/ML Developer" },
+    desc: {
+      id: "Mengevaluasi dan membandingkan 3 arsitektur Vision Transformer (ViT, Swin, DeiT) pada dataset klasifikasi gambar makanan Indonesia. Swin Transformer mencapai akurasi validasi 100%.",
+      en: "Evaluated and compared 3 Vision Transformer architectures (ViT, Swin, DeiT) on an Indonesian food image classification dataset. Swin Transformer achieved 100% validation accuracy."
+    },
+    tech: ["Python", "PyTorch", "Deep Learning"],
+    url: ""
+  },
+  {
     title: { id: "Simoni (Sistem Monitoring)", en: "Simoni (Monitoring System)" },
     role: { id: "Mobile Developer", en: "Mobile Developer" },
     desc: {
-      id: "Sistem pemantauan kinerja pegawai terintegrasi untuk Dinas Pangan Provinsi Lampung.",
-      en: "An integrated employee performance monitoring mobile app for the Lampung Province Food Security Agency."
+      id: "Aplikasi mobile pemantauan kinerja pegawai terintegrasi untuk Dinas Pangan Provinsi Lampung guna meningkatkan efisiensi pelaporan lintas divisi.",
+      en: "Integrated employee performance monitoring mobile app for the Lampung Province Food Security Agency to improve cross-divisional reporting efficiency."
     },
     tech: ["Flutter", "Firebase"],
     url: ""
   },
   {
-    title: { id: "Odoo ERP System", en: "Odoo ERP System" },
-    role: { id: "ERP Developer", en: "ERP Developer" },
+    title: { id: "Smart Trip Planner", en: "Smart Trip Planner" },
+    role: { id: "Android Developer", en: "Android Developer" },
     desc: {
-      id: "Pengembangan modul rekrutmen SDM & pengeluaran untuk PT Mitra Bali Sukses (Gacoan) menggunakan Odoo.",
-      en: "Development of HR recruitment & expenditure modules for PT Mitra Bali Sukses using Odoo."
+      id: "Aplikasi Android pariwisata yang menyajikan informasi destinasi, pencarian penginapan, konversi mata uang, serta fitur simulasi biaya perjalanan.",
+      en: "Android tourism application providing destination info, accommodation search, currency conversion, and a travel cost simulation feature."
     },
-    tech: ["Odoo", "Python", "PostgreSQL"],
-    url: "https://drive.google.com/drive/folders/1xc7mTCF9xprq08Vyp8qCMVxAejxSmzON"
+    tech: ["Kotlin", "Jetpack Compose"],
+    url: ""
+  },
+  {
+    title: { id: "Analisis Data Kemitraan Inti-Plasma", en: "Core-Plasma Partnership Data Analysis" },
+    role: { id: "Research Data Support", en: "Research Data Support" },
+    desc: {
+      id: "Mengelola dataset penelitian berskala besar dari survei lapangan petani singkong. Menerapkan kontrol kualitas yang ketat untuk memastikan integritas dan validitas data akademik.",
+      en: "Managed large-scale research datasets from cassava farmer field surveys. Applied strict quality control to ensure academic data integrity and validity."
+    },
+    tech: ["Data Analysis", "Quality Control"],
+    url: ""
   },
   {
     title: { id: "Super Apps IKN Kini", en: "IKN Kini Super Apps" },
     role: { id: "Project Manager & UI/UX", en: "Project Manager & UI/UX" },
     desc: {
-      id: "Prototipe Figma pusat layanan publik IKN (pengaduan, berita, kedaruratan, peta kawasan).",
-      en: "Figma prototype for IKN public service center (complaints, news, emergencies, area maps)."
+      id: "Memimpin riset pengguna dan perancangan prototipe UI/UX Figma untuk pusat layanan publik IKN, mencakup fitur pengaduan, berita, dan kedaruratan.",
+      en: "Led user research and UI/UX Figma prototyping for the IKN public service center, covering complaint, news, and emergency features."
     },
     tech: ["Figma", "Wireframing", "Prototyping"],
     url: "https://www.figma.com/design/YbfcRVpkYjMondJOG2532g/Projek-IMK-Kelompok-3?node-id=28-632&p=f"
   },
   {
+    title: { id: "Odoo ERP System", en: "Odoo ERP System" },
+    role: { id: "ERP Developer", en: "ERP Developer" },
+    desc: {
+      id: "Merancang dan mengimplementasikan modul rekrutmen SDM serta pelacakan pengeluaran operasional menggunakan platform Odoo untuk PT Mitra Bali Sukses.",
+      en: "Designed and implemented HR recruitment and operational expense tracking modules using the Odoo platform for PT Mitra Bali Sukses."
+    },
+    tech: ["Odoo", "Python", "PostgreSQL"],
+    url: "https://drive.google.com/drive/folders/1xc7mTCF9xprq08Vyp8qCMVxAejxSmzON"
+  },
+  {
     title: { id: "Chatbot SiPa & SiBaru", en: "SiPa & SiBaru Chatbot" },
     role: { id: "Project Manager", en: "Project Manager" },
     desc: {
-      id: "Layanan administrasi desa berbasis WhatsApp untuk mendigitalisasi pengurusan surat menyurat masyarakat.",
-      en: "WhatsApp-based village administration service to digitize public correspondence management."
+      id: "Memimpin tim dalam digitalisasi pengurusan surat menyurat masyarakat desa menjadi layanan otomatis berbasis WhatsApp.",
+      en: "Led a team in digitizing village public correspondence management into an automated WhatsApp-based service."
     },
     tech: ["WhatsApp API", "Node.js"],
     url: ""
+  },
+  {
+    title: { id: "Modul Pola Hidup Sehat & Kebugaran Fisik", en: "Healthy Lifestyle & Physical Fitness Module" },
+    role: { id: "Penyusun/Editor Modul Ajar", en: "Module Compiler/Editor" },
+    desc: {
+      id: "Menyusun ulang materi ajar menjadi buku modul akademik terstruktur untuk Prodi Rekayasa Keolahragaan ITERA, merapikan struktur dan konsistensi tipografi.",
+      en: "Restructured teaching materials into a structured academic module book for ITERA's Sports Engineering Program, refining structure and typographic consistency."
+    },
+    tech: ["Academic Writing", "Editorial"],
+    url: "https://www.overleaf.com/read/jhphbkzcwkpt#800b7a"
   }
 ];
 
@@ -109,12 +149,12 @@ export default function Experience() {
                 <ul className="list-disc pl-5 font-bold text-gray-800 space-y-2">
                   <li>
                     {lang === "id"
-                      ? "Mengembangkan aplikasi web \"Bring In Bring Out\" berbasis Laravel dan Tailwind CSS untuk mendigitalisasi system perizinan akses keluar-masuk oprasional di area POSCO, menggantikan pencatatan manual berbasis kertas."
+                      ? "Mengembangkan aplikasi web \"Bring In Bring Out\" berbasis Laravel dan Tailwind CSS untuk mendigitalisasi sistem perizinan akses keluar-masuk operasional di area POSCO, menggantikan pencatatan manual berbasis kertas."
                       : "Developed the \"Bring In Bring Out\" web application using Laravel and Tailwind CSS to digitize the operational entry and exit authorization system at the POSCO site, replacing manual, paper-based record-keeping."}
                   </li>
                   <li>
                     {lang === "id"
-                      ? "Merancang prototipe UI/UX aplikasi BAPPER (Berita Acara Serah dan Pengembalian Perangkat IT) menggunakan Figma, serta menyusun Software Requirements Specification (SRS)-nya sebagai dasar pengembangan sistem."
+                      ? "Merancang prototipe UI/UX aplikasi BAPPER (Berita Acara Serah dan Pengembalian Perangkat IT) menggunakan Figma, serta menyusun Software Requirements Specification (SRS) sebagai dasar pengembangan sistem."
                       : "Designed UI/UX prototypes for the BAPPER (Incident Report for IT Equipment Handover and Return) application using Figma, and drafted the Software Requirements Specification (SRS) as the foundation for system development."}
                   </li>
                   <li>
@@ -166,11 +206,11 @@ export default function Experience() {
               <FadeIn key={idx} delay={idx * 100}>
                 <div className="flex flex-col h-full">
                   <div className="w-28 bg-[#FFD700] border-4 border-b-0 border-black h-7 rounded-t-md px-3 flex items-center -mb-1 relative z-10">
-                    <span className="font-mono font-black text-xs text-black">PRJ-0{idx + 1}</span>
+                    <span className="font-mono font-black text-xs text-black">PRJ-{(idx + 1).toString().padStart(2, '0')}</span>
                   </div>
 
-                  <div className="bg-[#15151e] border-4 border-[#FFD700] p-6 hover:bg-[#FFD700] hover:text-black text-white transition-colors duration-200 flex-1 flex flex-col shadow-[6px_6px_0px_#000000] relative rounded-tl-none rounded-md">
-                    <span className="text-[#FFD700] group-hover:text-black font-black text-xs uppercase tracking-widest mb-3 block border-b border-[#FFD700]/30 pb-2">
+                  <div className="bg-[#15151e] border-4 border-[#FFD700] p-6 hover:bg-[#FFD700] hover:text-black text-white transition-colors duration-200 flex-1 flex flex-col shadow-[6px_6px_0px_#000000] relative rounded-tl-none rounded-md group">
+                    <span className="text-[#FFD700] group-hover:text-black font-black text-xs uppercase tracking-widest mb-3 block border-b border-[#FFD700]/30 group-hover:border-black/30 pb-2">
                       {lang === "id" ? proj.role.id : proj.role.en}
                     </span>
 
@@ -178,14 +218,14 @@ export default function Experience() {
                       {lang === "id" ? proj.title.id : proj.title.en}
                     </h3>
 
-                    <p className="font-medium text-gray-300 hover:text-gray-800 mb-6 text-sm">
+                    <p className="font-medium text-gray-300 group-hover:text-gray-800 mb-6 text-sm">
                       {lang === "id" ? proj.desc.id : proj.desc.en}
                     </p>
 
-                    <div className="mt-auto flex flex-col gap-5 pt-4 border-t border-[#FFD700]/30">
+                    <div className="mt-auto flex flex-col gap-5 pt-4 border-t border-[#FFD700]/30 group-hover:border-black/30">
                       <div className="flex flex-wrap gap-2">
                         {proj.tech.map((t, i) => (
-                          <span key={i} className="text-[10px] font-mono font-black uppercase tracking-wider bg-white/10 px-2 py-1 rounded-sm">
+                          <span key={i} className="text-[10px] font-mono font-black uppercase tracking-wider bg-white/10 group-hover:bg-black/10 px-2 py-1 rounded-sm">
                             {t}
                           </span>
                         ))}
@@ -196,7 +236,7 @@ export default function Experience() {
                           href={proj.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center justify-center gap-2 bg-[#FFD700] text-black border-2 border-transparent py-2.5 px-4 font-black text-xs uppercase tracking-widest transition-all shadow-[3px_3px_0_#000000] active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-black"
+                          className="inline-flex items-center justify-center gap-2 bg-[#FFD700] group-hover:bg-black group-hover:text-[#FFD700] text-black border-2 border-transparent group-hover:border-black py-2.5 px-4 font-black text-xs uppercase tracking-widest transition-all shadow-[3px_3px_0_#000000] active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-black"
                         >
                           {lang === "id" ? "Kunjungi Web" : "Visit Site"}
                           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
