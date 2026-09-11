@@ -41,7 +41,7 @@ const projects = [
       en: "Laboratory loan and reservation information system for ITERA's Sports Engineering Program. Covers 3 laboratories with an approval system and real-time schedule checking."
     },
     tech: ["Next.js", "Firebase"],
-    url: ""
+    url: "https://silaborro-itera.vercel.app/layanan/peminjaman-ruangan"
   },
   {
     title: { id: "Perbandingan Vision Transformer", en: "Vision Transformer Comparison" },
@@ -51,7 +51,7 @@ const projects = [
       en: "Evaluated and compared 3 Vision Transformer architectures (ViT, Swin, DeiT) on an Indonesian food image classification dataset. Swin Transformer achieved 100% validation accuracy."
     },
     tech: ["Python", "PyTorch", "Deep Learning"],
-    url: ""
+    url: "https://github.com/fiqrialdnsyh/VisionTransformer-Comparison"
   },
   {
     title: { id: "Simoni (Sistem Monitoring)", en: "Simoni (Monitoring System)" },
@@ -71,7 +71,7 @@ const projects = [
       en: "Android tourism application providing destination info, accommodation search, currency conversion, and a travel cost simulation feature."
     },
     tech: ["Kotlin", "Jetpack Compose"],
-    url: ""
+    url: "https://github.com/fiqrialdnsyh/OkeGas"
   },
   {
     title: { id: "Analisis Data Kemitraan Inti-Plasma", en: "Core-Plasma Partnership Data Analysis" },
